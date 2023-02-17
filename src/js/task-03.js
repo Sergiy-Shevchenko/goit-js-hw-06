@@ -34,7 +34,7 @@ const makePictureCard = image => {
   // return liItemEl;
 }
 
-const elements = images.map((image) => `<li class="gallery_item><img class="gallery_img" src="${image.url}" alt="${image.alt}"></li>`)
+const elements = images.map((image) => `<li class="gallery_item"><img class="gallery_img" src="${image.url}" alt="${image.alt}"></li>`)
 .join("");
 
 galleryEl.insertAdjacentHTML('afterbegin', elements);
