@@ -20,7 +20,7 @@ liItemEl.textContent = option;
 return liItemEl;
 })
 
-//console.log(elements);
+console.log(elements);
 
 ingredientsEl.append(...elements);
 
