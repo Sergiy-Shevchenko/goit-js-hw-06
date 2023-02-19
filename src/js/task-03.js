@@ -12,7 +12,7 @@ const images = [
     alt: 'Group of Horses Running',
   },
 ];
-console.log(images);
+//console.log(images);
 
 //----------------ul-----------------
 const galleryEl = document.querySelector('.gallery');
@@ -20,18 +20,16 @@ console.log(galleryEl);
 
 //--------------1-variant------------
 const makePictureCard = image => {
-  const liItemEl = document.createElement('li');
+  //const liItemEl = document.createElement('li');
   liItemEl.classList.add('gallery_item');
   
 
   const imagesEl = document.createElement('img');
-  imagesEl.classList.add('gallery_img');
+  //imagesEl.classList.add('gallery_img');
   imagesEl.src = image.url;
   imagesEl.alt = image.alt;
   
-  // liItemEl.appendChild(imagesEl);
 
-  // return liItemEl;
 }
 
 const elements = images.map((image) => `<li class="gallery_item"><img class="gallery_img" src="${image.url}" alt="${image.alt}"></li>`)

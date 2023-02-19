@@ -22,7 +22,6 @@ p {
 }
 
 
-
 input {
   padding: 8px;
   font: inherit;
@@ -34,6 +33,6 @@ button {
 }
 
 .gallery_img {
-  width: 450px;
-  height: 280px;
+  width: 380px;
+  height: 220px;
 }
