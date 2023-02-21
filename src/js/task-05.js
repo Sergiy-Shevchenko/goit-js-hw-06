@@ -4,7 +4,7 @@ const outnputEl = document.querySelector('#name-output');
 //-----------2-variant---------
 const onInput = (event) => {
 outnputEl.textContent = 
-event.currentTarget.value !== '' ?  
+event.currentTarget.value.trim() !== '' ?  
 event.currentTarget.value : 'Anonymous'  
 }
 
